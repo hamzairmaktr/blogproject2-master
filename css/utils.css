@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+p,a,li{
+    font-size: 1.8rem;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.7rem;
+}
+
+h3{
+    font-size: 3.3rem;
+}
+
+h4{
+    font-size: 2.7rem;
+}
+
+h5{
+    font-size: 2.3rem;
+}
+
+h6{
+    font-size: 2rem;
+}
+
+
+:root{
+    --primary-color:#003865;
+    --secondary-color:#EF5B0C;
+    --light-color:#D4F6CC;
+    --dark-color:#0F3D3E;
+}
+
+
+.container{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "content content content"
+    "footer footer footer";
+}
+
+.margintb-5{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+header{
+    grid-area: header;
+}
+
+main{
+    grid-area: content;
+}
+
+footer{
+    grid-area: footer;
+}
